@@ -1,9 +1,9 @@
 # IABD
 Curso de Especialización en Inteligencia Artificial y Big Data
 
-He creado este repositorio con el fin de ir incluyendo a lo largo del Curso de Especialización IABD 2024/2025 que acabo de empezar toda la información, ejercicios y tareas que realice para tener accesible todo lo que vayamos aprendiendo y trabajando , intentando recopilar dicha información lo más organizado posible.
+He creado este repositorio con el fin de ir incluyendo a lo largo del Curso de Especialización IABD 2024/2025 que acabo de empezar toda la información, ejercicios y tareas que realice para tener accesible todo lo que vayamos aprendiendo y trabajando , intentando recopilar dicha información lo más organizada posible.
 
-Asimismo, el repositorio posiblemente servirá para dejar las tareas que vaya realizando de algunos módulos (si así lo estime su profesor correspondiente), para que el profesor tenga acceso a las tareas de manera rápida y cómoda y pueda darme feed-back después de analizarlas.
+Asimismo, el repositorio posiblemente servirá para dejar las tareas que vaya realizando de algunos módulos (si así lo estima el profesor correspondiente), para que el profesor tenga acceso a las tareas de manera rápida y cómoda y pueda darme feed-back después de analizarlas.
 
 Asignaturas
 
