@@ -1,0 +1,38 @@
+[
+    {
+      "cliente_id": 1,
+      "producto_id": 1,
+      "cantidad": 1,
+      "fecha": "2023-10-01",
+      "estado": "Completado"
+    },
+    {
+      "cliente_id": 2,
+      "producto_id": 2,
+      "cantidad": 2,
+      "fecha": "2023-10-02",
+      "estado": "Pendiente"
+    },
+    {
+      "cliente_id": 3,
+      "producto_id": 3,
+      "cantidad": 1,
+      "fecha": "2023-10-03",
+      "estado": "Completado"
+    },
+    {
+      "cliente_id": 4,
+      "producto_id": 4,
+      "cantidad": 3,
+      "fecha": "2023-10-04",
+      "estado": "Completado"
+    },
+    {
+      "cliente_id": 5,
+      "producto_id": 5,
+      "cantidad": 1,
+      "fecha": "2023-10-05",
+      "estado": "Pendiente"
+    }
+  ]
+  

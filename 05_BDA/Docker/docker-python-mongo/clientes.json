@@ -1,0 +1,38 @@
+[
+    {
+      "nombre": "Juan Pérez",
+      "edad": 30,
+      "ciudad": "Madrid",
+      "correo": "juan.perez@example.com",
+      "telefono": "+34 612 345 678"
+    },
+    {
+      "nombre": "Ana Gómez",
+      "edad": 25,
+      "ciudad": "Barcelona",
+      "correo": "ana.gomez@example.com",
+      "telefono": "+34 678 901 234"
+    },
+    {
+      "nombre": "Luis Fernández",
+      "edad": 35,
+      "ciudad": "Valencia",
+      "correo": "luis.fernandez@example.com",
+      "telefono": "+34 912 345 678"
+    },
+    {
+      "nombre": "Marta Sánchez",
+      "edad": 28,
+      "ciudad": "Sevilla",
+      "correo": "marta.sanchez@example.com",
+      "telefono": "+34 654 321 987"
+    },
+    {
+      "nombre": "Carlos López",
+      "edad": 40,
+      "ciudad": "Bilbao",
+      "correo": "carlos.lopez@example.com",
+      "telefono": "+34 123 456 789"
+    }
+  ]
+  

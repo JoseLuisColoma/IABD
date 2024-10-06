@@ -1,0 +1,104 @@
+1. Comandos Básicos de Docker
+Aquí hay algunos de los comandos más útiles para trabajar con Docker en la línea de comandos:
+
+docker --version: Muestra la versión de Docker instalada.
+docker pull <imagen>: Descarga una imagen desde Docker Hub.
+docker images: Lista todas las imágenes locales.
+docker rmi <imagen>: Elimina una imagen local.
+docker run <opciones> <imagen>: Ejecuta un contenedor a partir de una imagen.
+docker ps: Muestra todos los contenedores en ejecución.
+docker ps -a: Muestra todos los contenedores (incluidos los detenidos).
+docker stop <contenedor>: Detiene un contenedor en ejecución.
+docker rm <contenedor>: Elimina un contenedor detenido.
+docker exec -it <contenedor> <comando>: Ejecuta un comando en un contenedor en ejecución.
+docker logs <contenedor>: Muestra los registros de un contenedor.
+2. Crear una Imagen de MongoDB y un Contenedor
+Para crear un contenedor de MongoDB, sigue estos pasos:
+
+Ejecuta un contenedor de MongoDB: Abre una terminal y ejecuta el siguiente comando:
+
+bash
+Copiar código
+docker run --name mongodb -d -p 27017:27017 mongo
+--name mongodb: Le da un nombre al contenedor.
+-d: Ejecuta el contenedor en segundo plano (modo "detached").
+-p 27017:27017: Mapea el puerto 27017 del contenedor al puerto 27017 de tu máquina local.
+Verifica que el contenedor está en ejecución:
+
+bash
+Copiar código
+docker ps
+Deberías ver tu contenedor de MongoDB en la lista.
+
+3. Crear una Aplicación en Python
+Ahora, vamos a crear una aplicación en Python que se conectará a la base de datos MongoDB. Necesitarás instalar pymongo si no lo has hecho:
+
+bash
+Copiar código
+pip install pymongo
+Estructura de Archivos
+Crea una carpeta para tu proyecto, por ejemplo mongo_app.
+Dentro de esa carpeta, crea los siguientes archivos:
+app.py: Código de la aplicación.
+data.json: Datos de ejemplo para insertar en la base de datos.
+Código de la Aplicación (app.py)
+python
+Copiar código
+import json
+from pymongo import MongoClient
+
+# Conectar a MongoDB
+client = MongoClient('mongodb://localhost:27017/')
+db = client['mydatabase']  # Nombre de la base de datos
+collection = db['mycollection']  # Nombre de la colección
+
+# Cargar datos desde data.json
+with open('data.json') as file:
+    data = json.load(file)
+
+# Insertar datos en la colección
+if isinstance(data, list):
+    collection.insert_many(data)
+else:
+    collection.insert_one(data)
+
+# Realizar consultas
+print("Datos insertados:")
+for item in collection.find():
+    print(item)
+
+# Consultas de ejemplo
+count = collection.count_documents({})
+print(f"\nTotal de documentos: {count}")
+
+# Cerrar la conexión
+client.close()
+Contenido de data.json
+json
+Copiar código
+[
+    { "name": "Alice", "age": 30 },
+    { "name": "Bob", "age": 25 },
+    { "name": "Charlie", "age": 35 }
+]
+4. Ejecutar la Aplicación
+Asegúrate de que tu contenedor de MongoDB está en ejecución.
+
+Navega a la carpeta de tu proyecto en la terminal.
+
+Ejecuta la aplicación:
+
+bash
+Copiar código
+python app.py
+5. Consultas a la Base de Datos
+La aplicación insertará los datos de data.json en MongoDB y mostrará todos los documentos insertados. También mostrará el total de documentos en la colección.
+
+Resumen de Pasos
+Instala Docker Desktop y asegúrate de que esté funcionando.
+Usa los comandos de Docker para crear y administrar un contenedor de MongoDB.
+Crea tu aplicación en Python y los archivos necesarios para insertar y consultar datos.
+Ejecuta la aplicación y verifica que los datos se insertaron correctamente.
+Problemas Comunes
+Asegúrate de que el contenedor de MongoDB esté en ejecución antes de intentar conectarte.
+Verifica que el puerto 27017 esté disponible en tu máquina.

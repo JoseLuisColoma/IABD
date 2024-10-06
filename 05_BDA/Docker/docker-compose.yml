@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mongobd:
+    image: mongo
+    container_name: mongobd
+    ports:
+      - "27017:27017"
+
+  app:
+    build: .
+    depends_on:
+      - mongobd
+    links:
+      - mongobd
+    environment:
+      MONGO_HOST: mongobd

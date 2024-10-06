@@ -1,0 +1,33 @@
+[
+    {
+      "nombre": "Laptop",
+      "categoria": "Electrónica",
+      "precio": 899.99,
+      "stock": 50
+    },
+    {
+      "nombre": "Teléfono Móvil",
+      "categoria": "Electrónica",
+      "precio": 499.99,
+      "stock": 100
+    },
+    {
+      "nombre": "Tablet",
+      "categoria": "Electrónica",
+      "precio": 299.99,
+      "stock": 75
+    },
+    {
+      "nombre": "Auriculares",
+      "categoria": "Accesorios",
+      "precio": 99.99,
+      "stock": 200
+    },
+    {
+      "nombre": "Reloj Inteligente",
+      "categoria": "Electrónica",
+      "precio": 199.99,
+      "stock": 150
+    }
+  ]
+  
