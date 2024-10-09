@@ -1,0 +1,30 @@
+Artículo: 
+¿Por qué no debemos dejar que las máquinas tomen decisiones por nosotros?
+
+En la final de la Liga de Naciones 2021 entre España y Francia, el gol de Mbappé, ¿fue fuera de juego o no lo fue? Gran dilema.
+
+Jugadas como esta han sido siempre motivo de discusión. Por ello, se esperaba que la introducción de la tecnología (el VAR) en las decisiones arbitrales reparase los posibles fallos humanos. Pero la discusión sigue abierta. Es indudable que Mbappé estaba en fuera de juego, sin embargo, al seguir la jugada, la norma considera que, al no tocar la pelota Eric García, si el juez de línea hubiera levantado el banderín la decisión hubiera sido correcta. Al no levantarla, la continuación de la jugada también es correcta.
+
+¿Cuál es el factor clave aquí? La tecnología. Al saber el linier que, si se equivoca, el VAR puede rectificar y subsanar su error, existe una tendencia a no tomar decisiones y esperar a que la tecnología lo resuelva más adelante. Hay una dejación del humano favor de la máquina.
+
+La fe ciega en la tecnología produce riesgos
+Confiar ciegamente en la infalibilidad de la tecnología puede causar problemas. Así, los sistemas automáticos de compraventa de acciones vieron comprometidas sus decisiones cuando, en 2013, un tuit de la cuenta de Associated Press anunció que Barack Obama había sido tiroteado. El algoritmo con esa información generó una bajada del Dow Jones de 150 puntos en un minuto y se produjeron pérdidas por un valor de 136 000 millones de dólares. La cuenta de Associated Press había sido controlada por un grupo de hackers.
+
+¿Le gusta lo que lee? ¿Quiere más?
+En la otra cara de la moneda tenemos el caso de Stanislav Petrov. En 1983, el sistema de radares de la URSS detectó cinco misiles en dirección a Rusia. Petrov, que estaba a cargo del centro de mando del sistema de alerta nuclear, tenía poco tiempo para tomar una decisión de ataque que podía derivar en una guerra termonuclear o ignorar a la máquina sin tener una certeza absoluta de que la alarma era falsa. Sin embargo, siguió su instinto al considerar que Estados Unidos no atacaría a la URSS con solo cinco misiles y, afortunadamente para todos nosotros, acertó.
+
+El control humano es necesario
+Este tipo de errores por parte de la tecnología son frecuentes. Por eso la Unión Europea pide el control humano de las decisiones que puedan tomar las máquinas.
+
+Las directrices éticas de la Comisión Europa para una inteligencia artificial fiable tienen como uno de sus principios el control humano en la toma de decisiones. Los sistemas inteligentes deben ayudar a los individuos a mejorar la toma de decisiones informadas de acuerdo con sus objetivos. Pero siempre bajo supervisión humana con el fin de asegurar que esta tecnología no mina la autonomía humana o causa otros efectos adversos. Esto implica que los humanos deben controlar los procesos de los sistemas inteligentes.
+
+En la toma de decisiones mediante un algoritmo, al introducir los datos, el algoritmo los enlaza siguiendo unas reglas para realizar el análisis. En determinados supuestos, la cantidad de variables a sopesar es tan grande que es difícil, sino imposible, explicar el por qué de los resultados obtenidos. Es lo que se denomina la black box en un sistema inteligente. Es por ello por lo que ha de estar presente el control humano en todo el proceso de uso tecnológico.
+
+Sin embargo, lo que estamos encontrando en el día a día del uso tecnológico es que las personas ceden ese control a la tecnología. Este fenómeno puede tener su explicación en la pereza, en la falta de confianza en la certeza de las decisiones humanas (porque sabemos que cometemos errores) o en la visión idealizada de que las máquinas son mejores. En algunos casos puede que esto sea verdad, pero no en todos.
+
+Operativa tecnológica, decisión humana
+La intención de la Unión Europea con respecto a los sistemas inteligentes es que sean una herramienta en la toma de decisiones para mejorar la vida de los ciudadanos, pero manteniendo siempre el control humano en todo el proceso: en la selección de los datos que alimentan el sistema, en el procesamiento y en el análisis de los resultados, para que las decisiones sean tomadas por humanos. Esto, con dos finalidades principales: asegurar que se evitan riesgos y que, si se producen daños, la responsabilidad no sea de una máquina. Este control humano derivará en una tecnología centrada en el hombre y no exclusivamente en el desarrollo tecnológico.
+
+Cada vez más, y el futuro económico puede depender de ello, las decisiones que tomemos van a estar asistidas por máquinas. Operaciones quirúrgicas, distribución energética, decisiones empresariales y económicas son solo algunos de los supuestos en los que ya se están implantando sistemas inteligentes. Que estos procesos permanezcan bajo control humano pese a la intervención de las máquinas permitirá evitar posibles errores y accidentes con graves implicaciones para la sociedad.
+
+Cuando el GPS indica una ruta que deriva hacia un desfiladero, sí puede que ese sea el camino más corto, pero debemos seguir siendo lo suficientemente inteligentes como especie para entender que el resultado que nos ofrece este dispositivo no es el que nos interesa y evitar despeñarnos por el acantilado
